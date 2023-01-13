@@ -1,0 +1,44 @@
+//-----------PARTIE 1-------
+//EXERCICE 1
+document.querySelector("h1").innerHTML="Les attributs class et id";
+
+//EXERCICE 2
+document.querySelector("h2").innerHTML="Exercice 2 partie A";
+
+//EXERCICE 3
+let h2 = document.querySelectorAll("h2");
+h2[1].innerHTML = "Exercice 2 partie B";
+
+//EXERCICE 4
+document.querySelector("p").innerHTML = `L'ajout de class et d'ID est assez simple, il suffit de connaitre les methodes <b>par coeur</b> `;
+
+//EXERCICE 5
+let p = document.querySelectorAll("p");
+p[1].innerHTML =  `La manipulation de l'attribut Style peut-être une <i>solution</i> rapide`;
+
+//-----------PARTIE 2.1-------
+//EXERCICE 6
+document.querySelector("h1").id = "bigTitle";
+
+//EXERCICE 7
+document.querySelector("div").classList.add = "container";
+
+//EXERCICE 8
+h2.forEach(element => {
+    element.classList.add("title")
+})
+
+//EXERCICE 9
+p.forEach(element => {
+    element.classList.add("text")
+})
+
+//-----------PARTIE 2.2-------
+//EXERCICE 10
+document.querySelector("section").classList.add("margin-bottom", "border-black", "padding");
+
+//EXERCICE 11
+document.querySelector("section").classList.add("margin-top", "border-black", "padding");
+
+//EXERCICE 12
+document.querySelectorAll("div")[1].classList.add("fond")
