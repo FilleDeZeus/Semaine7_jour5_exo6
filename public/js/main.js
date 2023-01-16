@@ -36,10 +36,12 @@ p.forEach(element => {
 
 //-----------PARTIE 2.2-------
 //EXERCICE 10
-document.querySelector("section").classList.add("margin-bottom", "border-black", "padding");
+let section1= document.querySelector("section")
+section1.classList.add("margin-bottom", "border-black", "padding");
 
 //EXERCICE 11
-document.querySelector("section").classList.add("margin-top", "border-black", "padding");
+let section2 = section1.nextElementSibling;
+section2.classList.add("margin-top", "border-black", "padding");
 
 //EXERCICE 12
 document.querySelectorAll("div")[1].classList.add("fond" )
