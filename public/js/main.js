@@ -28,7 +28,7 @@ document.querySelector("div").className = "container";
 h2.forEach(element => {
     element.classList.add("title")
 })
-
+console.log(h2);
 //EXERCICE 9
 p.forEach(element => {
     element.classList.add("text")
