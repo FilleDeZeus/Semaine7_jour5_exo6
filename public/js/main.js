@@ -42,4 +42,4 @@ document.querySelector("section").classList.add("margin-bottom", "border-black",
 document.querySelector("section").classList.add("margin-top", "border-black", "padding");
 
 //EXERCICE 12
-document.querySelectorAll("div")[1].classList.add("fond")
+document.querySelectorAll("div")[1].classList.add("fond" )
