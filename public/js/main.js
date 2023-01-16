@@ -1,9 +1,10 @@
 //-----------PARTIE 1-------
 //EXERCICE 1
 document.querySelector("h1").innerHTML="Les attributs class et id";
-
+//console.log(titre);
 //EXERCICE 2
 document.querySelector("h2").innerHTML="Exercice 2 partie A";
+//console.log(titre1);
 
 //EXERCICE 3
 let h2 = document.querySelectorAll("h2");
@@ -21,7 +22,7 @@ p[1].innerHTML =  `La manipulation de l'attribut Style peut-être une <i>solutio
 document.querySelector("h1").id = "bigTitle";
 
 //EXERCICE 7
-document.querySelector("div").classList.add = "container";
+document.querySelector("div").className = "container";
 
 //EXERCICE 8
 h2.forEach(element => {
